@@ -42,8 +42,8 @@ var APP_DATA = {
       ],
       "infoHotspots": [
         {
-          "yaw": -0.15027251942817266,
-          "pitch": 0.03790553279995379,
+          "yaw": -0.16198950076027963,
+          "pitch": 0.0531019631505778,
           "title": "Roman Catholic Cathedral of San Pablo",
           "text": "Text"
         },
@@ -95,16 +95,16 @@ var APP_DATA = {
           "target": "2-jollibee-plaza"
         },
         {
-          "yaw": 3.0673449465047353,
-          "pitch": 0.37584577378821393,
+          "yaw": 3.0347045782314908,
+          "pitch": 0.19961254537017226,
           "rotation": 0.7853981633974483,
           "target": "0-plaza"
         }
       ],
       "infoHotspots": [
         {
-          "yaw": 2.1542416306371432,
-          "pitch": 0.01773511662308458,
+          "yaw": 1.842589279092988,
+          "pitch": -0.21634029151938883,
           "title": "Library Hub",
           "text": "Text"
         }
@@ -158,8 +158,8 @@ var APP_DATA = {
       ],
       "infoHotspots": [
         {
-          "yaw": -0.7703514394291879,
-          "pitch": -0.2875261659296289,
+          "yaw": -0.8262147412092364,
+          "pitch": -0.285971387859302,
           "title": "Jollibee Plaza",
           "text": "Text"
         },
@@ -392,12 +392,12 @@ var APP_DATA = {
         {
           "yaw": 1.7441515507912992,
           "pitch": -0.13442884906119446,
-          "title": "Barangay V-C",
+          "title": "Barangay Hall of V-C",
           "text": "Text"
         },
         {
-          "yaw": -1.5181519283583995,
-          "pitch": -0.17616821355058931,
+          "yaw": -1.873108084572138,
+          "pitch": -0.11524806876467153,
           "title": "San Pablo City Girl Scout Council",
           "text": "Text"
         }
@@ -443,8 +443,8 @@ var APP_DATA = {
           "target": "6-san-pablo-girl-scout-council"
         },
         {
-          "yaw": -2.9965763890354715,
-          "pitch": 0.21427353269181992,
+          "yaw": -3.058605289991158,
+          "pitch": 0.32747321016681497,
           "rotation": 0.7853981633974483,
           "target": "16-old-city-hall"
         },
@@ -664,9 +664,9 @@ var APP_DATA = {
       ],
       "faceSize": 1000,
       "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
+        "yaw": -1.2702239891261122,
+        "pitch": 0.02834761216491799,
+        "fov": 1.505333938584494
       },
       "linkHotspots": [
         {
@@ -685,7 +685,7 @@ var APP_DATA = {
           "yaw": 2.2442883873289983,
           "pitch": 0.21858055441004964,
           "rotation": 0.7853981633974483,
-          "target": "24-resting-area-3"
+          "target": "23-resting-area-3"
         }
       ],
       "infoHotspots": []
@@ -710,16 +710,16 @@ var APP_DATA = {
       ],
       "faceSize": 1000,
       "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
+        "yaw": 1.8696908402429058,
+        "pitch": -0.08506167803646036,
+        "fov": 1.505333938584494
       },
       "linkHotspots": [
         {
           "yaw": -2.404867155319227,
           "pitch": 0.21483521630486813,
           "rotation": 0.7853981633974483,
-          "target": "25-open-space"
+          "target": "24-open-space"
         },
         {
           "yaw": -0.14110215027076123,
@@ -750,9 +750,9 @@ var APP_DATA = {
       ],
       "faceSize": 1000,
       "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
+        "yaw": 0.8881786637926687,
+        "pitch": -0.01804338625015589,
+        "fov": 1.505333938584494
       },
       "linkHotspots": [
         {
@@ -812,7 +812,7 @@ var APP_DATA = {
           "yaw": -2.57972571718733,
           "pitch": 0.2319264790096689,
           "rotation": 0,
-          "target": "19-cr"
+          "target": "18-cr"
         },
         {
           "yaw": 0.8979271485169296,
@@ -921,7 +921,7 @@ var APP_DATA = {
           "yaw": -3.091002086157779,
           "pitch": 0.27582636412175887,
           "rotation": 0,
-          "target": "18-exit"
+          "target": "27-exit"
         }
       ],
       "infoHotspots": [
@@ -934,7 +934,420 @@ var APP_DATA = {
       ]
     },
     {
-      "id": "18-exit",
+      "id": "18-cr",
+      "name": "CR",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        }
+      ],
+      "faceSize": 1000,
+      "initialViewParameters": {
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
+      },
+      "linkHotspots": [
+        {
+          "yaw": -1.6857863014095127,
+          "pitch": 0.3044108324861021,
+          "rotation": 0,
+          "target": "19-pathway-2"
+        },
+        {
+          "yaw": 0.5941436001013543,
+          "pitch": 0.16770409825472932,
+          "rotation": 0,
+          "target": "15-stage---side-view"
+        },
+        {
+          "yaw": 2.174970978864671,
+          "pitch": 0.3605725628036538,
+          "rotation": 0,
+          "target": "27-exit"
+        }
+      ],
+      "infoHotspots": [
+        {
+          "yaw": -0.5062043216911913,
+          "pitch": -0.08935384322031226,
+          "title": "Circle",
+          "text": "Text"
+        },
+        {
+          "yaw": -3.015807379761956,
+          "pitch": 0.0928152891004057,
+          "title": "Comfort Room",
+          "text": "Text"
+        }
+      ]
+    },
+    {
+      "id": "19-pathway-2",
+      "name": "Pathway 2",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        }
+      ],
+      "faceSize": 1000,
+      "initialViewParameters": {
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
+      },
+      "linkHotspots": [
+        {
+          "yaw": -0.061955187923306454,
+          "pitch": 0.4168272607602752,
+          "rotation": 0,
+          "target": "20-resting-area-1"
+        },
+        {
+          "yaw": -1.8765310543822906,
+          "pitch": 0.127609323122158,
+          "rotation": 0,
+          "target": "18-cr"
+        },
+        {
+          "yaw": -2.0474413659430137,
+          "pitch": 0.2357575258750515,
+          "rotation": 5.497787143782138,
+          "target": "25-circle"
+        },
+        {
+          "yaw": 1.7690688066889217,
+          "pitch": 0.08052300576761695,
+          "rotation": 0,
+          "target": "21-resting-area-2"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "20-resting-area-1",
+      "name": "Resting Area 1",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        }
+      ],
+      "faceSize": 1000,
+      "initialViewParameters": {
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
+      },
+      "linkHotspots": [
+        {
+          "yaw": -2.8277304828761096,
+          "pitch": 0.1705991560726119,
+          "rotation": 5.497787143782138,
+          "target": "19-pathway-2"
+        }
+      ],
+      "infoHotspots": [
+        {
+          "yaw": -0.1975556210106788,
+          "pitch": -0.24722804934218345,
+          "title": "Resting Area 1",
+          "text": "Text"
+        }
+      ]
+    },
+    {
+      "id": "21-resting-area-2",
+      "name": "Resting Area 2",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        }
+      ],
+      "faceSize": 1000,
+      "initialViewParameters": {
+        "yaw": -2.998288863650611,
+        "pitch": -0.1789583987506198,
+        "fov": 1.5707963267948966
+      },
+      "linkHotspots": [
+        {
+          "yaw": 0.3229277245628843,
+          "pitch": 0.16915908520503642,
+          "rotation": 0,
+          "target": "23-resting-area-3"
+        },
+        {
+          "yaw": 1.6561774023822435,
+          "pitch": 0.2002474594791579,
+          "rotation": 0,
+          "target": "22-open-space-3"
+        },
+        {
+          "yaw": -2.7620420421623173,
+          "pitch": 0.22060119773500553,
+          "rotation": 0,
+          "target": "19-pathway-2"
+        }
+      ],
+      "infoHotspots": [
+        {
+          "yaw": -2.2069802896694988,
+          "pitch": -0.13625619099082087,
+          "title": "Resting Area 2",
+          "text": "Text"
+        }
+      ]
+    },
+    {
+      "id": "22-open-space-3",
+      "name": "Open Space 3",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        }
+      ],
+      "faceSize": 1000,
+      "initialViewParameters": {
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
+      },
+      "linkHotspots": [
+        {
+          "yaw": -2.0077297965964114,
+          "pitch": 0.4126990872292797,
+          "rotation": 0,
+          "target": "21-resting-area-2"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "23-resting-area-3",
+      "name": "Resting Area 3",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        }
+      ],
+      "faceSize": 1000,
+      "initialViewParameters": {
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
+      },
+      "linkHotspots": [
+        {
+          "yaw": 1.3071554941141947,
+          "pitch": 0.23319339884239376,
+          "rotation": 0,
+          "target": "13-fountain---side-c"
+        },
+        {
+          "yaw": 2.760952557541267,
+          "pitch": 0.043408492508319796,
+          "rotation": 0,
+          "target": "21-resting-area-2"
+        }
+      ],
+      "infoHotspots": [
+        {
+          "yaw": -0.5800242582876205,
+          "pitch": 0.07024289740572165,
+          "title": "Resting Area 3",
+          "text": "Text"
+        }
+      ]
+    },
+    {
+      "id": "24-open-space",
+      "name": "Open Space",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        }
+      ],
+      "faceSize": 1000,
+      "initialViewParameters": {
+        "yaw": 2.2985576210104313,
+        "pitch": 0.009056434702248595,
+        "fov": 1.5707963267948966
+      },
+      "linkHotspots": [
+        {
+          "yaw": 2.1711529009783295,
+          "pitch": 0.3985125313961113,
+          "rotation": 0,
+          "target": "23-resting-area-3"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "25-circle",
+      "name": "Circle",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        }
+      ],
+      "faceSize": 1000,
+      "initialViewParameters": {
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
+      },
+      "linkHotspots": [
+        {
+          "yaw": 1.2591093860032618,
+          "pitch": 0.37508295263122804,
+          "rotation": 0,
+          "target": "19-pathway-2"
+        },
+        {
+          "yaw": -2.5771357315010803,
+          "pitch": 0.3022274713022206,
+          "rotation": 0,
+          "target": "26-pathway"
+        }
+      ],
+      "infoHotspots": [
+        {
+          "yaw": -0.5247158275753616,
+          "pitch": -0.020049446821372996,
+          "title": "Circle",
+          "text": "Text"
+        }
+      ]
+    },
+    {
+      "id": "26-pathway",
+      "name": "Pathway",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        }
+      ],
+      "faceSize": 1000,
+      "initialViewParameters": {
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
+      },
+      "linkHotspots": [
+        {
+          "yaw": 1.9590799706583457,
+          "pitch": 0.24973127014745344,
+          "rotation": 12.566370614359176,
+          "target": "13-fountain---side-c"
+        },
+        {
+          "yaw": -2.671746908852766,
+          "pitch": 0.20092049692020453,
+          "rotation": 0.7853981633974483,
+          "target": "25-circle"
+        },
+        {
+          "yaw": -1.2309617639109085,
+          "pitch": 0.10697533240411161,
+          "rotation": 11.780972450961727,
+          "target": "21-resting-area-2"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "27-exit",
       "name": "Exit",
       "levels": [
         {
@@ -976,7 +1389,7 @@ var APP_DATA = {
           "yaw": -1.7877735076087902,
           "pitch": 0.2026628265509398,
           "rotation": 0,
-          "target": "19-cr"
+          "target": "18-cr"
         }
       ],
       "infoHotspots": [
@@ -987,419 +1400,6 @@ var APP_DATA = {
           "text": "Text"
         }
       ]
-    },
-    {
-      "id": "19-cr",
-      "name": "CR",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        }
-      ],
-      "faceSize": 1000,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [
-        {
-          "yaw": -1.6857863014095127,
-          "pitch": 0.3044108324861021,
-          "rotation": 0,
-          "target": "20-pathway-2"
-        },
-        {
-          "yaw": 0.5941436001013543,
-          "pitch": 0.16770409825472932,
-          "rotation": 0,
-          "target": "15-stage---side-view"
-        },
-        {
-          "yaw": 2.174970978864671,
-          "pitch": 0.3605725628036538,
-          "rotation": 0,
-          "target": "18-exit"
-        }
-      ],
-      "infoHotspots": [
-        {
-          "yaw": -0.5062043216911913,
-          "pitch": -0.08935384322031226,
-          "title": "Circle",
-          "text": "Text"
-        },
-        {
-          "yaw": -3.015807379761956,
-          "pitch": 0.0928152891004057,
-          "title": "Comfort Room",
-          "text": "Text"
-        }
-      ]
-    },
-    {
-      "id": "20-pathway-2",
-      "name": "Pathway 2",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        }
-      ],
-      "faceSize": 1000,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [
-        {
-          "yaw": -0.061955187923306454,
-          "pitch": 0.4168272607602752,
-          "rotation": 0,
-          "target": "21-resting-area-1"
-        },
-        {
-          "yaw": -1.8765310543822906,
-          "pitch": 0.127609323122158,
-          "rotation": 0,
-          "target": "19-cr"
-        },
-        {
-          "yaw": -2.0474413659430137,
-          "pitch": 0.2357575258750515,
-          "rotation": 5.497787143782138,
-          "target": "26-circle"
-        },
-        {
-          "yaw": 1.7690688066889217,
-          "pitch": 0.08052300576761695,
-          "rotation": 0,
-          "target": "22-resting-area-2"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
-      "id": "21-resting-area-1",
-      "name": "Resting Area 1",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        }
-      ],
-      "faceSize": 1000,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [
-        {
-          "yaw": -2.8277304828761096,
-          "pitch": 0.1705991560726119,
-          "rotation": 5.497787143782138,
-          "target": "20-pathway-2"
-        }
-      ],
-      "infoHotspots": [
-        {
-          "yaw": -0.1975556210106788,
-          "pitch": -0.24722804934218345,
-          "title": "Resting Area 1",
-          "text": "Text"
-        }
-      ]
-    },
-    {
-      "id": "22-resting-area-2",
-      "name": "Resting Area 2",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        }
-      ],
-      "faceSize": 1000,
-      "initialViewParameters": {
-        "yaw": -2.998288863650611,
-        "pitch": -0.1789583987506198,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [
-        {
-          "yaw": 0.3229277245628843,
-          "pitch": 0.16915908520503642,
-          "rotation": 0,
-          "target": "24-resting-area-3"
-        },
-        {
-          "yaw": 1.6561774023822435,
-          "pitch": 0.2002474594791579,
-          "rotation": 0,
-          "target": "23-open-space-3"
-        },
-        {
-          "yaw": -2.7620420421623173,
-          "pitch": 0.22060119773500553,
-          "rotation": 0,
-          "target": "20-pathway-2"
-        }
-      ],
-      "infoHotspots": [
-        {
-          "yaw": -2.2069802896694988,
-          "pitch": -0.13625619099082087,
-          "title": "Resting Area 2",
-          "text": "Text"
-        }
-      ]
-    },
-    {
-      "id": "23-open-space-3",
-      "name": "Open Space 3",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        }
-      ],
-      "faceSize": 1000,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [
-        {
-          "yaw": -2.0077297965964114,
-          "pitch": 0.4126990872292797,
-          "rotation": 0,
-          "target": "22-resting-area-2"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
-      "id": "24-resting-area-3",
-      "name": "Resting Area 3",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        }
-      ],
-      "faceSize": 1000,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [
-        {
-          "yaw": 1.3071554941141947,
-          "pitch": 0.23319339884239376,
-          "rotation": 0,
-          "target": "13-fountain---side-c"
-        },
-        {
-          "yaw": 2.760952557541267,
-          "pitch": 0.043408492508319796,
-          "rotation": 0,
-          "target": "22-resting-area-2"
-        }
-      ],
-      "infoHotspots": [
-        {
-          "yaw": -0.5800242582876205,
-          "pitch": 0.07024289740572165,
-          "title": "Resting Area 3",
-          "text": "Text"
-        }
-      ]
-    },
-    {
-      "id": "25-open-space",
-      "name": "Open Space",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        }
-      ],
-      "faceSize": 1000,
-      "initialViewParameters": {
-        "yaw": 2.2985576210104313,
-        "pitch": 0.009056434702248595,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [
-        {
-          "yaw": 2.1711529009783295,
-          "pitch": 0.3985125313961113,
-          "rotation": 0,
-          "target": "24-resting-area-3"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
-      "id": "26-circle",
-      "name": "Circle",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        }
-      ],
-      "faceSize": 1000,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [
-        {
-          "yaw": 1.2591093860032618,
-          "pitch": 0.37508295263122804,
-          "rotation": 0,
-          "target": "20-pathway-2"
-        },
-        {
-          "yaw": -2.5771357315010803,
-          "pitch": 0.3022274713022206,
-          "rotation": 0,
-          "target": "27-pathway"
-        }
-      ],
-      "infoHotspots": [
-        {
-          "yaw": -0.5247158275753616,
-          "pitch": -0.020049446821372996,
-          "title": "Circle",
-          "text": "Text"
-        }
-      ]
-    },
-    {
-      "id": "27-pathway",
-      "name": "Pathway",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        }
-      ],
-      "faceSize": 1000,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [
-        {
-          "yaw": 1.9590799706583457,
-          "pitch": 0.24973127014745344,
-          "rotation": 12.566370614359176,
-          "target": "13-fountain---side-c"
-        },
-        {
-          "yaw": -2.671746908852766,
-          "pitch": 0.20092049692020453,
-          "rotation": 0.7853981633974483,
-          "target": "26-circle"
-        },
-        {
-          "yaw": -1.2309617639109085,
-          "pitch": 0.10697533240411161,
-          "rotation": 11.780972450961727,
-          "target": "22-resting-area-2"
-        }
-      ],
-      "infoHotspots": []
     }
   ],
   "name": "Sampaloc Lake Park - Virtual Tour",
