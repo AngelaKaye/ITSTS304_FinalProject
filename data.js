@@ -45,13 +45,13 @@ var APP_DATA = {
           "yaw": -0.16198950076027963,
           "pitch": 0.0531019631505778,
           "title": "Roman Catholic Cathedral of San Pablo",
-          "text": "Text"
+          "text": ""
         },
         {
           "yaw": 1.6102661678063264,
           "pitch": -0.019109428588974353,
           "title": "7/11 112 San Pablo",
-          "text": "Text"
+          "text": ""
         }
       ]
     },
@@ -103,10 +103,10 @@ var APP_DATA = {
       ],
       "infoHotspots": [
         {
-          "yaw": 1.842589279092988,
-          "pitch": -0.21634029151938883,
+          "yaw": 1.8359382633634418,
+          "pitch": -0.21719970466755711,
           "title": "Library Hub",
-          "text": "Text"
+          "text": ""
         }
       ]
     },
@@ -161,13 +161,13 @@ var APP_DATA = {
           "yaw": -0.8262147412092364,
           "pitch": -0.285971387859302,
           "title": "Jollibee Plaza",
-          "text": "Text"
+          "text": ""
         },
         {
           "yaw": 2.6706720564848165,
           "pitch": -0.10668565211268621,
           "title": "Pizza Hut",
-          "text": "Text"
+          "text": ""
         }
       ]
     },
@@ -222,7 +222,7 @@ var APP_DATA = {
           "yaw": 2.4530022335139483,
           "pitch": -0.1673307216360076,
           "title": "Laguna College",
-          "text": "Text"
+          "text": ""
         }
       ]
     },
@@ -274,10 +274,10 @@ var APP_DATA = {
       ],
       "infoHotspots": [
         {
-          "yaw": 2.67979217201227,
-          "pitch": -0.3337229384392373,
+          "yaw": 2.6360649857117,
+          "pitch": -0.2691236986074177,
           "title": "Barangay 4C Child Development Center",
-          "text": "Text"
+          "text": ""
         }
       ]
     },
@@ -332,13 +332,13 @@ var APP_DATA = {
           "yaw": 1.2025748209758458,
           "pitch": 0.10196297632901619,
           "title": "Andres Bonifacio statue",
-          "text": "Text"
+          "text": ""
         },
         {
           "yaw": -0.4718982904987179,
           "pitch": -0.0725241851117282,
           "title": "Holy Birria",
-          "text": "Text"
+          "text": ""
         }
       ]
     },
@@ -385,7 +385,7 @@ var APP_DATA = {
           "yaw": -0.010383270894479324,
           "pitch": 0.35798130985670085,
           "rotation": 0,
-          "target": "4-barangay-4c-child-development-center"
+          "target": "5-andres-bonifacio-statue"
         }
       ],
       "infoHotspots": [
@@ -393,13 +393,13 @@ var APP_DATA = {
           "yaw": 1.7441515507912992,
           "pitch": -0.13442884906119446,
           "title": "Barangay Hall of V-C",
-          "text": "Text"
+          "text": ""
         },
         {
           "yaw": -1.873108084572138,
           "pitch": -0.11524806876467153,
           "title": "San Pablo City Girl Scout Council",
-          "text": "Text"
+          "text": ""
         }
       ]
     },
@@ -460,7 +460,7 @@ var APP_DATA = {
           "yaw": -1.1984063572135248,
           "pitch": 0.06742410584166869,
           "title": "Entrance 1",
-          "text": "Text"
+          "text": ""
         }
       ]
     },
@@ -507,7 +507,7 @@ var APP_DATA = {
           "yaw": -0.32860757663772766,
           "pitch": 0.10455124864427034,
           "title": "Playground",
-          "text": "Text"
+          "text": ""
         }
       ]
     },
@@ -566,13 +566,13 @@ var APP_DATA = {
           "yaw": 2.41320904437113,
           "pitch": -0.11744591149557237,
           "title": "Pagoda",
-          "text": "Text"
+          "text": ""
         },
         {
           "yaw": -0.07194612939832723,
           "pitch": -0.049321345649762094,
           "title": "Fountain",
-          "text": "Text"
+          "text": ""
         }
       ]
     },
@@ -773,13 +773,13 @@ var APP_DATA = {
           "yaw": 1.6618325646151773,
           "pitch": -0.01904548010167062,
           "title": "Stage",
-          "text": "Text"
+          "text": ""
         },
         {
           "yaw": -0.5637106351009447,
           "pitch": -0.066483273513267,
           "title": "Fountain",
-          "text": "Text"
+          "text": ""
         }
       ]
     },
@@ -826,7 +826,7 @@ var APP_DATA = {
           "yaw": 2.5077515717247856,
           "pitch": -0.024208927534628444,
           "title": "Stage",
-          "text": "Text"
+          "text": ""
         }
       ]
     },
@@ -876,7 +876,14 @@ var APP_DATA = {
           "target": "17-opc"
         }
       ],
-      "infoHotspots": []
+      "infoHotspots": [
+        {
+          "yaw": -2.73374765861497,
+          "pitch": -0.3702660081319884,
+          "title": "Old City Hall",
+          "text": ""
+        }
+      ]
     },
     {
       "id": "17-opc",
@@ -929,7 +936,7 @@ var APP_DATA = {
           "yaw": 2.7436372539395153,
           "pitch": -0.09741009427602876,
           "title": "OPC",
-          "text": "Text"
+          "text": ""
         }
       ]
     },
@@ -982,13 +989,13 @@ var APP_DATA = {
           "yaw": -0.5062043216911913,
           "pitch": -0.08935384322031226,
           "title": "Circle",
-          "text": "Text"
+          "text": ""
         },
         {
           "yaw": -3.015807379761956,
           "pitch": 0.0928152891004057,
           "title": "Comfort Room",
-          "text": "Text"
+          "text": ""
         }
       ]
     },
@@ -1081,7 +1088,7 @@ var APP_DATA = {
           "yaw": -0.1975556210106788,
           "pitch": -0.24722804934218345,
           "title": "Resting Area 1",
-          "text": "Text"
+          "text": ""
         }
       ]
     },
@@ -1134,7 +1141,7 @@ var APP_DATA = {
           "yaw": -2.2069802896694988,
           "pitch": -0.13625619099082087,
           "title": "Resting Area 2",
-          "text": "Text"
+          "text": ""
         }
       ]
     },
@@ -1215,7 +1222,7 @@ var APP_DATA = {
           "yaw": -0.5800242582876205,
           "pitch": 0.07024289740572165,
           "title": "Resting Area 3",
-          "text": "Text"
+          "text": ""
         }
       ]
     },
@@ -1296,7 +1303,7 @@ var APP_DATA = {
           "yaw": -0.5247158275753616,
           "pitch": -0.020049446821372996,
           "title": "Circle",
-          "text": "Text"
+          "text": ""
         }
       ]
     },
@@ -1397,7 +1404,7 @@ var APP_DATA = {
           "yaw": -1.4556022174032606,
           "pitch": 0.059509177538231484,
           "title": "Entrance 2",
-          "text": "Text"
+          "text": ""
         }
       ]
     }
