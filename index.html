@@ -1,92 +1,140 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Albor-Coral-Galero-Lincuran-Patacsil</title>
+<title>Sampaloc Lake Park - Virtual Tour</title>
 <meta charset="utf-8">
 <meta name="viewport" content="target-densitydpi=device-dpi, width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, minimal-ui" />
 <style> @-ms-viewport { width: device-width; } </style>
 <link rel="stylesheet" href="vendor/reset.min.css">
 <link rel="manifest" href="/manifest.json">
 <link rel="stylesheet" href="style.css">
-<link rel="icon" href="images/logo-ccs-60.png" type="image/x-icon" />
-<link rel="apple-touch-icon" href="images/logo-ccs-60.png">
+<link rel="icon" href="images/logo-60.png" type="image/x-icon" />
+<link rel="apple-touch-icon" href="images/logo-60.png">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="theme-color" content="white"/>
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black">
-<meta name="apple-mobile-web-app-title" content="ITST 304">
-<meta name="msapplication-TileImage" content="images/logo-ccs-90.png">
+<meta name="apple-mobile-web-app-title" content="ITST 304 - Final Project">
+<meta name="msapplication-TileImage" content="images/logo-90.png">
 <meta name="msapplication-TileColor" content="#FFFFFF">
 </head>
-<body class="multiple-scenes ">
+<body class="multiple-scenes view-control-buttons">
 
 <div id="pano"></div>
 
 <div id="sceneList">
   <ul class="scenes">
     
-      <a href="javascript:void(0)" class="scene" data-id="0-roadside-view">
-        <li class="text">Roadside View</li>
+      <a href="javascript:void(0)" class="scene" data-id="0-plaza">
+        <li class="text">Plaza</li>
       </a>
     
-      <a href="javascript:void(0)" class="scene" data-id="1-lspu-main-gate">
-        <li class="text">LSPU Main Gate</li>
+      <a href="javascript:void(0)" class="scene" data-id="1-library-hub">
+        <li class="text">Library Hub</li>
       </a>
     
-      <a href="javascript:void(0)" class="scene" data-id="2-cte-bldg">
-        <li class="text">CTE Bldg.</li>
+      <a href="javascript:void(0)" class="scene" data-id="2-jollibee-plaza">
+        <li class="text">Jollibee Plaza</li>
       </a>
     
-      <a href="javascript:void(0)" class="scene" data-id="3-admission-bldg">
-        <li class="text">Admission Bldg.</li>
+      <a href="javascript:void(0)" class="scene" data-id="3-laguna-college">
+        <li class="text">Laguna College</li>
       </a>
     
-      <a href="javascript:void(0)" class="scene" data-id="4-hospitality">
-        <li class="text">Hospitality</li>
+      <a href="javascript:void(0)" class="scene" data-id="4-barangay-4c-child-development-center">
+        <li class="text">Barangay 4C Child Development Center</li>
       </a>
     
-      <a href="javascript:void(0)" class="scene" data-id="5-further-in">
-        <li class="text">Further In</li>
+      <a href="javascript:void(0)" class="scene" data-id="5-andres-bonifacio-statue">
+        <li class="text">Andres Bonifacio statue</li>
       </a>
     
-      <a href="javascript:void(0)" class="scene" data-id="6-a-great-view">
-        <li class="text">A Great View</li>
+      <a href="javascript:void(0)" class="scene" data-id="6-san-pablo-girl-scout-council">
+        <li class="text">San Pablo Girl Scout Council</li>
       </a>
     
-      <a href="javascript:void(0)" class="scene" data-id="7-open-field">
-        <li class="text">Open Field</li>
+      <a href="javascript:void(0)" class="scene" data-id="7-entrance-1">
+        <li class="text">Entrance 1</li>
       </a>
     
-      <a href="javascript:void(0)" class="scene" data-id="8-otw">
-        <li class="text">OTW</li>
+      <a href="javascript:void(0)" class="scene" data-id="8-playground">
+        <li class="text">Playground</li>
       </a>
     
-      <a href="javascript:void(0)" class="scene" data-id="9-university-pool-a">
-        <li class="text">University Pool A</li>
+      <a href="javascript:void(0)" class="scene" data-id="9-fountain---side-a">
+        <li class="text">Fountain - Side A</li>
       </a>
     
-      <a href="javascript:void(0)" class="scene" data-id="10-university-pool-b">
-        <li class="text">University Pool B</li>
+      <a href="javascript:void(0)" class="scene" data-id="10-fountain---closer-view">
+        <li class="text">Fountain - Closer View</li>
       </a>
     
-      <a href="javascript:void(0)" class="scene" data-id="11-university-pool-c">
-        <li class="text">University Pool C</li>
+      <a href="javascript:void(0)" class="scene" data-id="11-pagoda">
+        <li class="text">Pagoda</li>
       </a>
     
-      <a href="javascript:void(0)" class="scene" data-id="12-sleeping-beauty">
-        <li class="text">Sleeping Beauty</li>
+      <a href="javascript:void(0)" class="scene" data-id="12-fountain---side-b">
+        <li class="text">Fountain - Side B</li>
       </a>
     
-      <a href="javascript:void(0)" class="scene" data-id="13-university-pool-d">
-        <li class="text">University Pool D</li>
+      <a href="javascript:void(0)" class="scene" data-id="13-fountain---side-c">
+        <li class="text">Fountain - Side C</li>
       </a>
     
-      <a href="javascript:void(0)" class="scene" data-id="14-university-pool-e">
-        <li class="text">University Pool E</li>
+      <a href="javascript:void(0)" class="scene" data-id="14-stage---front-view">
+        <li class="text">Stage - Front View</li>
       </a>
     
-      <a href="javascript:void(0)" class="scene" data-id="15-in-the-pool">
-        <li class="text">In The Pool</li>
+      <a href="javascript:void(0)" class="scene" data-id="15-stage---side-view">
+        <li class="text">Stage - Side View</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="16-old-city-hall">
+        <li class="text">Old City Hall</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="17-opc">
+        <li class="text">OPC</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="18-exit">
+        <li class="text">Exit</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="19-cr">
+        <li class="text">CR</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="20-pathway-2">
+        <li class="text">Pathway 2</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="21-resting-area-1">
+        <li class="text">Resting Area 1</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="22-resting-area-2">
+        <li class="text">Resting Area 2</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="23-open-space-3">
+        <li class="text">Open Space 3</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="24-resting-area-3">
+        <li class="text">Resting Area 3</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="25-open-space">
+        <li class="text">Open Space</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="26-circle">
+        <li class="text">Circle</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="27-pathway">
+        <li class="text">Pathway</li>
       </a>
     
   </ul>
