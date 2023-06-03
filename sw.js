@@ -2,6 +2,7 @@ var cacheName = 'itst-pwa';
 var filesToCache = [
   '/',
   '/index.html',
+  '/about.html',
   '/style.css',
   '/js/main.js'
 ];
