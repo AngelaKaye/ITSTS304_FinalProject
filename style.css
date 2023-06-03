@@ -33,6 +33,24 @@ a, a:hover, a:active, a:visited {
   color: inherit;
 }
 
+.about-button {
+  display: inline-block;
+  margin: 20px;
+  padding: 10px 20px;
+  background-color: #486856;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.about-button:hover {
+  background-color: #C1E1C1;
+  text-decoration: none;
+  color: #000;
+}
+
 #pano {
   position: absolute;
   top: 0;
@@ -198,6 +216,12 @@ body.fullscreen-enabled.mobile #autorotateToggle {
 
 #autorotateToggle.enabled .icon.off {
   display: none;
+}
+
+h5{
+  padding: 10px;
+  line-height: 20px;
+  text-align: justify;
 }
 
 #sceneListToggle {
